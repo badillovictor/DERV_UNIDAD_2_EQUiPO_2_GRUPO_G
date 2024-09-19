@@ -23,7 +23,7 @@ public class S2_MovimientoLocal : MonoBehaviour
         if (Input.GetKey(KeyCode.S))
         {
             //transform.Translate(transform.forward * velocidad * Time.deltaTime * -1);
-            transform.position += transform.position += transform.forward * velocidad * Time.deltaTime * -1;
+            transform.position += transform.forward * velocidad * Time.deltaTime * -1;
         }
     }
 }
