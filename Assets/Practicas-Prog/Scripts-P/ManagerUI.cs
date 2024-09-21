@@ -48,12 +48,10 @@ public class ManagerUI : MonoBehaviour
     public void ComerEnemigos()
     {
         textEnemigosRestantes.text = enemigosRestantes--.ToString();
-        Debug.Log("Se toco un enemigo real");
     }
 
     public void TocarFantasma()
     {
         textFallos.text = fallos++.ToString();
-        Debug.Log("Se toco un enemigo falso");
     }
 }
