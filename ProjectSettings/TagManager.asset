@@ -6,6 +6,7 @@ TagManager:
   tags:
   - TypeEnemy
   - Jugador
+  - CurrentPlayer
   layers:
   - Default
   - TransparentFX
